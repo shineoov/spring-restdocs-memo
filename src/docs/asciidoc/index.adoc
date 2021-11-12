@@ -1,0 +1,7 @@
+
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+### BOARD SAVE REQUEST
+include::{snippets}/board-save/curl-request.adoc[]
