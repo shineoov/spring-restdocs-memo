@@ -58,13 +58,28 @@ endif::[]
 | 요청한 리소스가 없음.
 |===
 
-
 ## 게시판
 
 [[board-save-request]]
-### 게시글 저장 요청
+### 게시글 저장 요청 (http-request)
 include::{snippets}/board-save/http-request.adoc[]
 
+
+#### REQUEST HEADER
+include::{snippets}/board-save/request-headers.adoc[]
+
+#### REQUEST FIELDS
+include::{snippets}/board-save/request-fields.adoc[]
+
+
 [[board-save-response]]
-### 게시글 저장 응답
+### 게시글 저장 응답 (http-response)
 include::{snippets}/board-save/http-response.adoc[]
+
+
+
+#### RESPONSE HEADER
+include::{snippets}/board-save/response-headers.adoc[]
+
+#### RESPONSE FIELDS
+include::{snippets}/board-save/response-body.adoc[]
