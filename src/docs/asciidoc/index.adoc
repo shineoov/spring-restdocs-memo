@@ -60,6 +60,18 @@ endif::[]
 
 ## 게시판
 
+### 게시글 조회
+
+#### request
+include::{snippets}/get-board/http-request.adoc[]
+
+#### request path param
+include::{snippets}/get-board/path-parameters.adoc[]
+
+#### response
+include::{snippets}/get-board/http-response.adoc[]
+
+
 [[board-save-request]]
 ### 게시글 저장 요청 (http-request)
 include::{snippets}/board-save/http-request.adoc[]
